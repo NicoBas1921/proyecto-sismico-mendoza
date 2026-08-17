@@ -1,0 +1,27 @@
+# Reglas de homogeneización acordadas para la versión inicial del catálogo.
+# Antes de publicar resultados científicos, completar las referencias
+# bibliográficas y validar el dominio de aplicación de cada relación.
+
+reference_magnitude = "Mw"
+
+[direct]
+types = ["Mw", "mww", "mwb", "mwr"]
+
+[conversions.local_regional]
+types = ["ML", "MD", "M"]
+slope = 0.97
+intercept = 0.1025
+equation = "Mw = 0.97 * M + 0.1025"
+reference = "PENDIENTE: completar cita bibliográfica regional"
+
+[conversions.body_wave]
+types = ["mb"]
+slope = 0.554
+intercept = 1.765
+equation = "Mw = 0.554 * mb + 1.765"
+reference = "PENDIENTE: completar cita bibliográfica"
+
+[excluded_from_mw]
+types = ["MG", "mbtmp", "UNKNOWN"]
+reason = "Sin conversión defendible adoptada; conservar el valor original para trazabilidad."
+

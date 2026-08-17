@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+
+# IDE y sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Contexto local sincronizado por la aplicación (no forma parte del proyecto)
+AGENTS.md
+sources/
+
+# Datos generados o descargados (se conservan solo los marcadores)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Resultados
+outputs/*
+!outputs/.gitkeep
