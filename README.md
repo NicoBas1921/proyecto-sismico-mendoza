@@ -48,4 +48,4 @@ El pipeline todavía es una base mínima. Se completará cuando estén disponibl
 
 ## Autoría
 
-Este repositorio no incluye commits generados durante la preparación inicial. La autoría de cada commit depende de la identidad Git configurada por quien lo realiza.
+Proyecto grupal con fines educativos.
