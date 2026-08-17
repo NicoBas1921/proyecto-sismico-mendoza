@@ -29,6 +29,8 @@ data/interim/*
 !data/interim/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/catalogo_sismico_mendoza_v1.1_final.csv
+!data/processed/catalogo_sismico_mendoza_v1.1_final.xlsx
 
 # Resultados
 outputs/*
